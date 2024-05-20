@@ -1,0 +1,248 @@
+/* Fonts */
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    margin-top: 0px;
+}
+
+/* Common Styles */
+a {
+    text-decoration: none;
+    font-size: 20px;
+}
+p{
+    margin-bottom: 5px;
+}
+
+/* header styles */
+header{
+    padding: 15px 10%;
+    background-color: #fff5e09f;
+}
+/* main styles */
+main{
+    padding: 50px 150px;
+}
+/* nav styles */
+
+nav{
+    margin-bottom: 10px;
+}
+
+.nav-stuff {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 30px;
+}
+.section-title{
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-family: "Work Sans", sans-serif;
+}
+.nav-btns {
+    display: flex;
+}
+
+.nav-btn {
+    margin: 0 10px;
+    list-style: none;
+    color: #000000;
+}
+ 
+
+
+
+
+/* banner styles */
+
+.banner-info{
+    text-align: center;
+} 
+
+.banner-title{
+    font-family: "Work Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    color: #000000;
+    margin-bottom: 15px;
+}
+.btn-primary{
+    background-color: #FF900E;
+    padding: 15px 20px;
+    border-radius: 6px;
+    font-size: 15px;
+    color: #ffffff;
+    border: none;
+ }
+.banner-image{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.banner-image img{
+    width: 900px;
+}
+
+ /* features styles */
+ 
+.features-container{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 80px;
+}
+
+.features-item-1{
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+.features-item-1 img{
+    width: 200px;
+    height: 200px
+}
+
+.color-1{
+    color: #999999;
+    font-size: 28px;
+    font-weight: 600;
+}
+.color-2{
+    color: #000;
+    font-size: 28px;
+    font-weight: 750;
+}
+.color-3{
+    color: #FF900E;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+/* feature styles  aka i dont know what to call this things okay */
+
+.features-experience {
+    display: flex;
+    gap: 90px;
+}
+
+.feature {
+    background-color: #ffffff;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px rgba(224, 226, 250, 0.555);
+    width: 400px;
+    height: 70px;
+}
+.feature-item-1 img{
+ width: 508px;
+}
+.experience-btn {
+    background-color: #FF900E;
+    color: white;
+    padding: 30px 30px;
+    margin: -50px;
+    border: none;
+    border-radius: 5px;
+}
+.experience-btn span{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+/* facts section  */
+
+.facts-section{
+    margin-top: 150px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+.facts{
+    display: flex;
+    margin-top: 45px;
+    gap: 100px;
+    align-items: center;
+}
+.fact{
+    text-align: center;
+    border: 1px solid #FF900E;
+    padding: 20px 0px;
+    border-radius: 5px;
+    width:140px;    
+    transition: padding 0.3s, transform 3s ease-in-out;
+}
+.fact:hover{
+    padding: 30px 0px;
+    width:160px;
+    transform: rotateY(340deg);
+}
+.fact img{
+    width: 30px;
+}
+.fact h3{
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    color: #424242;
+    padding: 5px;
+}
+.fact p{
+    color: #727272;
+}
+
+
+/* footer styles */
+
+footer {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: auto; /* Push footer to the bottom */
+}
+
+.sponsors h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sponsors p {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 30px;
+}
+
+.sponsor-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.sponsor-logos img {
+    max-height: 40px;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease-in-out;
+}
+
+
+.copyright {
+    background-color: #f9f1e7;
+    padding: 20px 0px;
+    margin: 0px 60px;
+    margin-top: 50px;
+    width: 700px;
+    margin-left: 330px;
+}
+
+.copyright p {
+    font-size: 14px;
+    color: #666666;
+    margin: 0;
+}
